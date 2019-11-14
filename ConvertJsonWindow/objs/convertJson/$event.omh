@@ -1,0 +1,4 @@
+On evClick     ;; Event Parameters - pRow( Itemreference )
+	Do OJSON.$listtoobjectarray($cinst.episodes) Returns jsonBin
+	Calculate jsonStr as utf8tochar(jsonBin)
+	Breakpoint

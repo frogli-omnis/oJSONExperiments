@@ -1,0 +1,8 @@
+;  Enter your initialization code here
+Do episodes.$cols.$add('Date',kDate,kDate2000)
+Do episodes.$cols.$add('Name',kCharacter,kSimplechar,60)
+Do episodes.$cols.$add('Id',kInteger,k32bitint)
+Do episodes.$cols.$add('Description',kCharacter,kSimplechar,100000000)
+Do episodes.$add('20.03.2012','Diabetes type 2',8,'Description of Diabetes tipe 2')
+Do episodes.$add('03.11.2011','Hair loss',6,'Falling hairs out of season')
+Do episodes.$add('25.09.2011','CVMR',1,'CVRM description')
